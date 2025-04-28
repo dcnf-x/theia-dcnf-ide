@@ -19,7 +19,7 @@ jobs:
     - name: Read version from RELEASE file
       id: read_release
       run: |
-        VERSION=$(cat RELEASE | tr -d '[:space:]')
+        VERSION=$(cat RELEASE | grep -v '#' | tr -d '[:space:]')
         echo "VERSION=${VERSION}" >> $GITHUB_ENV
         echo "Version read: $VERSION"
 
