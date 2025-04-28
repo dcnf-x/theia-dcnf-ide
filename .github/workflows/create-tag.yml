@@ -1,5 +1,8 @@
 name: Create Git Tag from RELEASE file
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
