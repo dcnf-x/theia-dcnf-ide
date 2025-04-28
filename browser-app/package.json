@@ -14,6 +14,12 @@
     "@theia/process": "1.60.2",
     "@theia/terminal": "1.60.2",
     "@theia/workspace": "1.60.2",
+    "@theia/search-in-workspace": "1.60.2",
+    "@theia/vsx-registry": "1.60.2",
+    "@theia/plugin-ext-vscode": "1.60.2",
+    "@theia/plugin-ext": "1.60.2",
+    "@theia/preview": "1.60.2",
+    "@theia/getting-started": "1.60.2",
     "theia-dcnf": "0.0.0"
   },
   "devDependencies": {
